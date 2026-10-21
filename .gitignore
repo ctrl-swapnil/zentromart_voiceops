@@ -9,3 +9,11 @@ data/
 practice/
 Capstone_Project_Dataset_FTTT_2026.zip
 Capstone_Project_Dataset_FTTT_2026/
+
+CHANGELOG.md
+DATA_DICTIONARY.md
+ZIP_SCHEMA.md
+validate_dataset.py
+tools/
+sample_outputs/*
+!sample_outputs/.gitkeep
