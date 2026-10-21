@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+chroma_db/
+kb/
+data/
+practice/
+Capstone_Project_Dataset_FTTT_2026.zip
+Capstone_Project_Dataset_FTTT_2026/

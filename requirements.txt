@@ -1,0 +1,8 @@
+pandas
+numpy
+chromadb
+openai
+gnani-vachana
+python-dotenv
+tqdm
+gdown
