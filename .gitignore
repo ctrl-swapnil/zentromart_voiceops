@@ -17,3 +17,6 @@ validate_dataset.py
 tools/
 sample_outputs/*
 !sample_outputs/.gitkeep
+
+.vscode/
+test_audio/
