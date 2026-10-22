@@ -1,14 +1,15 @@
 # ZentroMart VoiceOps Agent (VoiceOps 2026 Capstone)
 
 Public Repository: [https://github.com/ctrl-swapnil/zentromart_voiceops](https://github.com/ctrl-swapnil/zentromart_voiceops)
+Demo Video: [https://drive.google.com/file/d/1k39cL26ld1fdn6n34byi75wIEHMpqU5z/view?usp=sharing](https://drive.google.com/file/d/1k39cL26ld1fdn6n34byi75wIEHMpqU5z/view?usp=sharing)
 
 AI-powered voice customer support agent built for **ZentroMart** as part of the **IIT Guwahati (C&A Club) x Gnani.ai — Tokens to Transformers** Capstone Project.
 
 ## Architecture & Four-Step Implementation
 
 1. **Step 1 — LLM Prompting:** Enforces ZentroMart support persona, AI assistant self-identification on the first turn, and ear-friendly concise responses.
-2. **Step 2 — Document Grounding (RAG):** Indexes active policies and FAQs from `kb/` into ChromaDB while excluding superseded documents (`pol_returns_v3_superseded.md`) and preserving `[SECTION-ID]` metadata and policy hierarchy.
-3. **Step 3 — Multi-Turn Conversation & Tools:** Connects `tools/tools.py` (`lookup_order` and `create_ticket`), enforces caller verification, uses `20 October 2026` as the reference date, and triggers empathetic human handover when an edge-case query falls outside policy coverage.
+2. **Step 2 — Document Grounding (RAG):** Indexes active policies and FAQs from `kb/` into ChromaDB while excluding superseded documents (`pol_returns_v3_superseded.md`) and preserving `[SECTION-ID][...]
+3. **Step 3 — Multi-Turn Conversation & Tools:** Connects `tools/tools.py` (`lookup_order` and `create_ticket`), enforces caller verification, uses `20 October 2026` as the reference date, and trigg[...]
 4. **Step 4 — Voice Layer (Gnani STT & TTS):** Wraps the conversational brain with `gnani-vachana` (`GnaniSTTClient` and `GnaniTTSClient` using `timbre-v2.5`).
 
 ## Setup & Installation
